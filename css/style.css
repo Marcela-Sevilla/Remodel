@@ -1,0 +1,125 @@
+/* PALETA DE COLORES */
+:root {
+    --color-primario: #FF2626;
+    --color-secundario: #EB1D36;
+    --color-terciario: #FA9494;
+    --gris: #CFD2CF;
+    --blanco:#FDFEFE;
+    --negro: #000000 ;
+}
+.titulo{
+    color: var(--color-secundario);
+    font-weight: 400 !important;
+}
+/* HEADER Y MENÚ */
+header nav{
+    background-image: linear-gradient(to top, var(--color-primario) 0%, var(--color-secundario) 100%);
+    background-color: #FF2626;
+}
+header nav .nav-link{
+    color: var(--blanco);
+    font-weight: 400;
+    margin: 5px 15px;
+    border: none;
+    transition: 0.2s;
+}
+header nav .nav-link:hover{
+    color: var(--gris);
+    border-bottom: solid 2px var(--blanco);
+}
+/* CARRUSEL */
+.carousel .carousel-inner .carousel-item h5{
+    color: var(--color-secundario);
+    font-size: 30px !important;
+}
+.carousel .carousel-inner .carousel-item p{
+    color: var(--negro);
+    font-size: 18px !important;
+}
+.carousel .carousel-inner .carousel-item img{
+    filter: blur(1px);
+}
+/* PROYECTOS */
+.titulo-s1{
+    color: var(--color-primario);
+    font-weight: 400 !important;
+}
+section .card .card-img-top{
+    width: 100%;
+    height: 200px !important;
+}
+/* FORMULARIOS COTIZACIÓN */
+.form-cotización input{
+    border: solid 2px var(--color-terciario);
+}
+.form-cotización button{
+    background-color: var(--color-secundario);
+    color: var(--blanco);
+    border: none;
+    transition: 0.2s;
+}
+.form-cotización button:hover{
+    background-color: var(--blanco) !important;
+    color: var(--color-secundario) !important;
+    border: solid 2px var(--color-secundario) !important;
+    font-weight: 500 !important;
+}
+/* TABLA */
+table{
+    border: solid 2px var(--color-terciario) !important;
+}
+table tbody tr:nth-child(odd) {
+    background: #ECF0F1;
+}
+table tr th{
+    color: var(--color-primario) !important;
+    font-size: 23px;
+    font-weight: 400 !important;
+}
+table tbody tr td{
+    font-size: 18px !important;
+}
+table tbody tr .m-o{
+    color: var(--color-primario) !important;
+}
+table tbody tr .c-t{
+    color: var(--color-secundario) !important;
+}
+main .alert{
+    background-color: #FDEDEC !important;
+}
+main .alert button{
+    background: none !important;
+    border: none !important;
+    color: var(--color-primario);
+    font-weight: 500 !important;
+    text-decoration: underline;
+}
+main .alert button:hover{
+    color: var(--color-terciario);
+}
+/* ESTILO MODAL */
+.modal-dialog .modal-header .modal-title{
+    color: var(--color-primario);
+}
+.modal-dialog .modal-body{
+    font-size: 18px !important;
+}
+.modal-dialog .modal-body b{
+    font-weight: 500 !important;
+    color: var(--color-secundario);
+}
+.modal-dialog .modal-footer button{
+    background-color: var(--blanco) !important;
+    color: var(--color-primario) !important;
+    font-weight: 500 !important;
+    border: solid 2px var(--color-secundario) !important;
+}
+.modal-dialog .modal-footer button:hover{
+    background-color: var(--color-primario) !important;
+    color: var(--blanco) !important;
+}
+/* FOOTER */
+footer{
+    background-color: var(--color-primario);
+}
